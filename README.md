@@ -3,3 +3,4 @@
 * python3
 	* PrettyTable
 	* requests
+	* docopt
