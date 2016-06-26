@@ -35,11 +35,11 @@ class BaseError(Exception):
         self.message = message
     
     
-    def exit_after_echo(color='red'):
+    def exit_after_echo(self, color='red'):
         if color == 'red':
             print(colored.red(self.message))
         else:
-            print(message)
+            print(self.message)
         exit()
 
 
