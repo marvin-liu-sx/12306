@@ -1,6 +1,4 @@
-### Train tickets command line query
+### python +splinter自动刷新抢票
 
-* python3
-	* PrettyTable
-	* requests
-	* docopt
+* python2.7
+	
